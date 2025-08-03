@@ -5,8 +5,8 @@ import BuyCredit from './pages/BuyCredit'
 import { Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
-import Login from './components/login'
-import { AppContext } from './context/appContext'
+import Login from './components/Login'
+import { AppContext } from './context/AppContext'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
