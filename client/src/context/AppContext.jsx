@@ -9,7 +9,7 @@ export const AppContext = createContext()
 const AppContextProvider = (props)=>{
     const [user, setUser] = useState(false);
     const [login, setLogin] = useState(false);
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl ="https://say2scene-backend.onrender.com"
     const [token, setToken] = useState(localStorage.getItem('token')) // using thr local storage of the browser if any token present pass to the token
     const [credit, setCredit] = useState(false);
     const navigate = useNavigate();
